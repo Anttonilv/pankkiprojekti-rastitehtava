@@ -10,7 +10,7 @@ app.use(express.json());
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "root",  // käytä salasanaa jos sinulla on sellainen
+    password: "root", 
     database: "booksdb"
 });
 
